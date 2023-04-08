@@ -1,4 +1,4 @@
-1. domain.rddl --> more like a template/blueprint of the task/problem which we are trying to model/optimize ---> doesn't include specifics --> just defines the underlying structure
+1. domain.rddl --> more like a template/blueprint of the task/problem which we are trying to model/optimize ---> doesn't include specifics --> just defines the underlying structure   --- The file specifies the properties of the objects in the domain and the relationships between them, without referring to specific instances of those objects.
 2. instance.rddl ---> includes specifics
 - could include intial state, but not necessarily
 - objectives
