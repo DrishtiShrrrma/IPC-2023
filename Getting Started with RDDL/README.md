@@ -37,3 +37,12 @@ However, it's worth noting that the focus of RDDL modeling is usually on the sta
 
 8. One can argue that the "position" variable should also be defined as an action fluent, since it is updated by the actions taken by the agent. However, it is also possible to define it as a state fluent, since its value can also change due to external factors, such as friction or air resistance.
 - Goal-specific considerations: In some cases, we may have specific goals or objectives that are only relevant to certain instances. For example, if we are optimizing a planning system for a disaster response scenario, we may want to prioritize instances that correspond to high-risk areas or emergency situations.
+
+
+9. In RDDL, state fluents are used to represent the properties of the environment that can change over time, while action fluents are used to represent the effects of actions on the state of the environment.
+
+In the example you provided, the "position" variable is associated with the "car" object, and represents the position of the car in the environment. Since the position of the car can change over time due to external factors, such as gravity or friction, it is considered a state fluent.
+
+On the other hand, the "velocity" variable is also associated with the "car" object, and represents the velocity of the car. The velocity of the car can only be changed by the actions taken by the agent, such as accelerating or decelerating, and not by external factors. Therefore, it is considered an action fluent.
+
+In general, state fluents should be used to represent the properties of the environment that can change over time due to external factors, while action fluents should be used to represent the effects of actions on the environment that cannot be predicted or controlled by the agent.
