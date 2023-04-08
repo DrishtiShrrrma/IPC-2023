@@ -34,4 +34,6 @@ However, it's worth noting that the focus of RDDL modeling is usually on the sta
 
 - Domain-specific considerations: In some domains, there may be certain instances that are more important or representative than others. For example, in a planning problem for an autonomous vehicle, the instance that corresponds to rush hour traffic may be more important than the instance that corresponds to light traffic.
 
+
+8. One can argue that the "position" variable should also be defined as an action fluent, since it is updated by the actions taken by the agent. However, it is also possible to define it as a state fluent, since its value can also change due to external factors, such as friction or air resistance.
 - Goal-specific considerations: In some cases, we may have specific goals or objectives that are only relevant to certain instances. For example, if we are optimizing a planning system for a disaster response scenario, we may want to prioritize instances that correspond to high-risk areas or emergency situations.
