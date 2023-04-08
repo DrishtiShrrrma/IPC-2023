@@ -21,6 +21,9 @@ Reason:
 - Computational constraints: In some cases, the computational resources required to optimize for all instances may be prohibitive. For example, if we have a large number of instances or if each instance requires significant computation, it may not be practical to optimize for all of them.
 
 
+7. Ultimately, whether to define a variable as a state fluent or an action fluent depends on how you want to model the environment and the actions taken by the agent. If we want to emphasize the fact that the position of the car can be updated by the actions taken by the agent, we could define it as an action fluent. If we want to emphasize the fact that the position of the car can also be affected by external factors, we could define it as a state fluent.
+
+
 7. While pvariables are primarily used to represent the state of the environment in RDDL, they can also be used to represent the state of the agent itself by associating pvariables with the agent object.
 
 For example, if the agent has a health attribute, this could be represented as an attribute of the agent object using a pvariable. Similarly, if the agent has a goal or a set of preferences, these could be represented as pvariables associated with the agent.
