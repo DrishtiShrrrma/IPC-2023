@@ -46,3 +46,4 @@ In the example you provided, the "position" variable is associated with the "car
 On the other hand, the "velocity" variable is also associated with the "car" object, and represents the velocity of the car. The velocity of the car can only be changed by the actions taken by the agent, such as accelerating or decelerating, and not by external factors. Therefore, it is considered an action fluent.
 
 In general, state fluents should be used to represent the properties of the environment that can change over time due to external factors, while action fluents should be used to represent the effects of actions on the environment that cannot be predicted or controlled by the agent.
+
