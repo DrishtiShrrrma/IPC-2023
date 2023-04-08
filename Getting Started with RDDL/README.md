@@ -20,6 +20,15 @@
 Reason:
 - Computational constraints: In some cases, the computational resources required to optimize for all instances may be prohibitive. For example, if we have a large number of instances or if each instance requires significant computation, it may not be practical to optimize for all of them.
 
+
+7. While pvariables are primarily used to represent the state of the environment in RDDL, they can also be used to represent the state of the agent itself by associating pvariables with the agent object.
+
+For example, if the agent has a health attribute, this could be represented as an attribute of the agent object using a pvariable. Similarly, if the agent has a goal or a set of preferences, these could be represented as pvariables associated with the agent.
+
+However, it's worth noting that the focus of RDDL modeling is usually on the state of the environment as a whole, rather than the state of the agent. The agent is typically treated as a separate entity that interacts with the environment through actions, rather than as an integral part of the environment itself.
+
+
+
 - Domain-specific considerations: In some domains, there may be certain instances that are more important or representative than others. For example, in a planning problem for an autonomous vehicle, the instance that corresponds to rush hour traffic may be more important than the instance that corresponds to light traffic.
 
 - Goal-specific considerations: In some cases, we may have specific goals or objectives that are only relevant to certain instances. For example, if we are optimizing a planning system for a disaster response scenario, we may want to prioritize instances that correspond to high-risk areas or emergency situations.
