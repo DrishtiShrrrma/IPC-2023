@@ -33,9 +33,23 @@
  **15. Maximizing system reliability**
  
  **16. Minimizing equipment maintenance costs**
+ 
+**## B) Some Potential Objectives that can be Used in Planning and Scheduling for UAVs:**
+
+**1. Mission completion:** The primary objective could be to ensure that the UAV completes its mission successfully within a given time frame. This would involve planning the optimal route, scheduling the necessary actions, and allocating resources accordingly.
+
+**2. Resource optimization:** Another objective could be to optimize the use of resources, such as fuel, battery life, and storage capacity. This would require the planner to consider trade-offs between resource utilization and mission completion.
+
+**3. Risk minimization:** In some applications, the objective may be to minimize the risk of UAV failure or damage to equipment or personnel. This would involve considering factors such as weather conditions, obstacles, and potential hazards in the mission area.
+
+**4. Time-sensitive missions:** In situations where time is critical, such as search and rescue operations or emergency response, the primary objective would be to complete the mission as quickly as possible. This would require the planner to prioritize tasks and optimize the use of resources accordingly.
+
+**5. Data collection:** In applications where the UAV is used for data collection, such as surveillance or mapping, the primary objective would be to collect the required data accurately and efficiently. This would involve planning the optimal flight path and scheduling the necessary data collection tasks.
+
+**6. Flexibility and adaptability:** In some situations, the primary objective may be to ensure that the UAV is flexible and adaptable to changing circumstances. This would require the planner to consider different contingencies and plan accordingly.
 
 
-## B) Some Potential Objectives that can be Used in Planning and Scheduling **HVAC** Systems using RDDL:
+**## C) Some Potential Objectives that can be Used in Planning and Scheduling **HVAC** Systems using RDDL:**
 
 **1. Minimizing energy consumption:** The objective can be to minimize the energy consumption of the HVAC system, while still maintaining a comfortable indoor environment.
 
@@ -57,3 +71,29 @@
 
 **10. Maximizing occupant satisfaction:** The objective can be to maximize the satisfaction level of the occupants by providing a comfortable indoor environment that meets their needs and preferences.
 
+
+## D) Some Potential Objectives in Planning and Scheduling for Wildfires
+
+1. Minimizing the spread of the wildfire to reduce the area burned
+2. Minimizing the impact of the wildfire on human lives and property
+3. Maximizing the efficiency of firefighting resources, such as firefighters, helicopters, and fire trucks
+4. Minimizing the damage to natural resources, such as forests, wildlife habitats, and water sources
+5. Minimizing the cost of fighting the wildfire, including equipment, supplies, and personnel
+6. Maximizing the speed of containing the wildfire to prevent it from spreading further
+7. Minimizing the risk of the wildfire re-igniting after it has been contained
+8. Minimizing the duration of the wildfire to reduce the disruption to local communities and businesses
+9. Maximizing the safety of firefighters and other personnel involved in fighting the wildfire
+10. Minimizing the environmental impact of firefighting activities, such as air and water pollution
+11. Maximizing the collaboration between different agencies involved in fighting the wildfire, such as fire departments, emergency services, and forest services
+12. Minimizing the impact of the wildfire on the local economy, such as tourism and agriculture
+13. Maximizing the use of technology and data analytics to predict and prevent wildfires
+14. Minimizing the risk of wildfires caused by human activities, such as campfires, cigarettes, and fireworks
+15. Maximizing the education and awareness of the public on how to prevent wildfires and stay safe during a wildfire
+16. Minimizing the impact of climate change on the frequency and severity of wildfires
+17. Maximizing the resilience of communities to adapt and recover from wildfires
+18. Minimizing the loss of biodiversity and ecosystem services due to wildfires
+19. Maximizing the effectiveness of fire prevention measures, such as fuel reduction and fire-resistant landscaping
+20. Minimizing the risk of wildfires spreading across international borders and causing cross-border conflicts or disasters.
+
+
+## D)
