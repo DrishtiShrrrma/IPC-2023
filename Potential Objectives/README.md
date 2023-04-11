@@ -49,7 +49,7 @@
 **6. Flexibility and adaptability:** In some situations, the primary objective may be to ensure that the UAV is flexible and adaptable to changing circumstances. This would require the planner to consider different contingencies and plan accordingly.
 
 
-**## C) Some Potential Objectives that can be Used in Planning and Scheduling **HVAC** Systems using RDDL:**
+**## C) Some Potential Objectives that can be Used in Planning and Scheduling HVAC Systems using RDDL:**
 
 **1. Minimizing energy consumption:** The objective can be to minimize the energy consumption of the HVAC system, while still maintaining a comfortable indoor environment.
 
@@ -96,4 +96,4 @@
 20. Minimizing the risk of wildfires spreading across international borders and causing cross-border conflicts or disasters.
 
 
-## D)
+## E)
