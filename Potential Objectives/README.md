@@ -5,7 +5,7 @@
  
  **2. Minimizing Cost of Executing a Plan:** This can involve minimizing the time taken to complete a set of tasks, minimizing resource usage, or minimizing other costs associated with executing a plan.
  
- **3. Maximizing Throughput:** The objective may be to maximize the number of tasks that can be completed within a given time period. This can involve optimizing the allocation of resources and the scheduling of tasks to maximize overall throughput.
+ 3. Maximizing Throughput: The objective may be to maximize the number of tasks that can be completed within a given time period. This can involve optimizing the allocation of resources and the scheduling of tasks to maximize overall throughput.
     - Alternatively, Minimizing makespan: The objective may be to minimize the makespan, or the time taken to complete all tasks. This can involve optimizing the allocation of resources and the scheduling of tasks to minimize the overall makespan.
  
  **4. Maximizing Fairness/Equity:** This can involve ensuring that all tasks or agents are treated equally, or that no individual is unfairly prioritized over others.
@@ -96,4 +96,64 @@
 20. Minimizing the risk of wildfires spreading across international borders and causing cross-border conflicts or disasters.
 
 
-## E)
+## E) Some Potential Objectives for Planning and Scheduling for Elevators
+
+**1. Passenger waiting time:** One of the primary objectives for elevator planning and scheduling could be to minimize passenger waiting time. This would involve optimizing the scheduling of elevators to ensure that they arrive at floors where passengers are waiting in the shortest time possible.
+
+**2. Energy efficiency:** Another objective could be to optimize energy usage and reduce the energy consumption of the elevators. This would involve scheduling the elevators in such a way that they operate in the most energy-efficient manner possible.
+
+**3. Elevator utilization:** The objective could be to maximize the utilization of the elevators, ensuring that each elevator is used efficiently and effectively. This would involve scheduling the elevators to transport passengers from one floor to another in the most efficient way possible, while ensuring that the elevators are not overloaded.
+
+**4. Peak traffic handling:** The objective could be to handle peak traffic efficiently, especially during rush hours, to ensure that all passengers are transported to their destination floors quickly and efficiently. This would involve scheduling the elevators to handle peak traffic without causing overcrowding or delays.
+
+**5. Maintenance scheduling:** Another objective could be to optimize the scheduling of elevator maintenance and repair tasks to minimize downtime and ensure the elevators are in good working condition at all times. This would involve scheduling maintenance tasks around the needs of the passengers and optimizing maintenance scheduling to minimize disruption.
+
+**6. Safety:** The objective could be to optimize the operation of elevators to ensure the safety of passengers and equipment. This would involve scheduling the elevators to comply with safety regulations, ensuring that the elevators are not overloaded, and avoiding any potential safety hazards.
+
+
+## F) Some Potential Objectives for Planning and Scheduling for PowerGen (Power Generation)
+
+**1. Optimal power generation:** One of the primary objectives for power generation planning and scheduling could be to maximize the amount of power generated while minimizing costs. This would involve scheduling the power generation units to operate at their maximum capacity while minimizing fuel consumption.
+
+**2. Demand response:** Another objective could be to optimize power generation to respond to changes in demand. This would involve scheduling the power generation units to ramp up or down in response to changes in power demand to avoid overloading the grid or wasting excess power.
+
+**3. Renewable integration:** The objective could be to optimize the integration of renewable energy sources into the power generation system. This would involve scheduling the power generation units to take advantage of renewable energy sources when they are available, while minimizing the use of fossil fuels.
+
+**4. Maintenance scheduling:** Another objective could be to optimize the scheduling of maintenance and repair tasks to minimize downtime and ensure that the power generation system is in good working condition at all times. This would involve scheduling maintenance tasks around the needs of the power grid and optimizing maintenance scheduling to minimize disruption.
+
+**5. Emissions reduction:** The objective could be to minimize the emissions produced by the power generation system. This would involve scheduling the power generation units to operate in the most environmentally friendly way possible, while still meeting power demand requirements.
+
+**6. Fuel efficiency:** Another objective could be to optimize the use of fuel resources in the power generation system. This would involve scheduling the power generation units to operate in the most fuel-efficient way possible, while still meeting power demand requirements.
+
+
+## G) Some Potential Objectives for Planning and Scheduling for PROP-DBN (Probabilistic Relational Operator Planning - Dynamic Bayesian Network):
+  - Mostly used in domains such as aircraft propulsion systems.
+
+**1. Flight safety:** One of the primary objectives for aircraft propulsion planning and scheduling could be to ensure flight safety. This would involve scheduling the operation of the propulsion system to minimize the risk of malfunctions, failures, or accidents during flight.
+
+**2. Fuel efficiency:** Another objective could be to optimize the use of fuel resources in the aircraft propulsion system. This would involve scheduling the operation of the propulsion system to maximize fuel efficiency, reduce fuel consumption, and minimize emissions.
+
+**3. Performance optimization:** The objective could be to optimize the performance of the aircraft propulsion system. This would involve scheduling the operation of the propulsion system to achieve maximum thrust, speed, and altitude while minimizing wear and tear on the system.
+
+**4. Maintenance scheduling:** Another objective could be to optimize the scheduling of maintenance and repair tasks to minimize downtime and ensure that the propulsion system is in good working condition at all times. This would involve scheduling maintenance tasks around the needs of the aircraft and optimizing maintenance scheduling to minimize disruption.
+
+**5. Noise reduction:** The objective could be to minimize the noise produced by the aircraft propulsion system. This would involve scheduling the operation of the propulsion system to minimize noise levels, especially during takeoff and landing.
+
+**6. Flight range:** Another objective could be to optimize the flight range of the aircraft by scheduling the operation of the propulsion system to maximize fuel efficiency and performance, while ensuring that the aircraft can reach its destination safely and efficiently.
+
+
+## H) Some Potential Objectives for Planning and Scheduling for RecSim:
+
+**1. Recommendation quality:** One of the primary objectives for recommendation system planning and scheduling could be to optimize the quality of recommendations. This would involve scheduling and prioritizing recommendation algorithms that are most likely to generate high-quality recommendations based on the user's historical data and preferences.
+
+**2. User engagement:** Another objective could be to maximize user engagement with the recommendation system. This would involve scheduling and prioritizing recommendation algorithms that are most likely to generate recommendations that the user finds relevant and interesting.
+
+**3. Diversity:** The objective could be to optimize the recommendation system to provide diverse recommendations to the user. This would involve scheduling and prioritizing recommendation algorithms that are most likely to generate recommendations that cover a wide range of topics or product categories.
+
+**4. Fairness:** Another objective could be to optimize the recommendation system to ensure fairness for all users. This would involve scheduling and prioritizing recommendation algorithms that do not exhibit bias towards certain users or demographics.
+
+**5. Exploration vs. Exploitation:** The objective could be to balance the exploration of new recommendation algorithms with the exploitation of the most successful ones. This would involve scheduling and prioritizing a mix of recommendation algorithms that can both explore new recommendations and exploit the most successful ones.
+
+**6. Computational efficiency:** Another objective could be to optimize the recommendation system to run efficiently within computational constraints. This would involve scheduling and prioritizing recommendation algorithms that can run within the computational resources available and minimizing the overall computational cost.
+
+
