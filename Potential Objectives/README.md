@@ -1,5 +1,5 @@
 
-## A) **Potential Objectives in Planning and Scheduling Problems:**
+## A) **Some Potential Objectives in Planning and Scheduling Problems:**
  **1. Maximizing Reward:** Most common objective!
     - goal: To maximize cumulative reward
  
