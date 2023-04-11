@@ -34,7 +34,7 @@
  
  **16. Minimizing equipment maintenance costs**
  
-**## B) Some Potential Objectives that can be Used in Planning and Scheduling for UAVs:**
+## B) Some Potential Objectives that can be Used in Planning and Scheduling for UAVs:
 
 **1. Mission completion:** The primary objective could be to ensure that the UAV completes its mission successfully within a given time frame. This would involve planning the optimal route, scheduling the necessary actions, and allocating resources accordingly.
 
@@ -49,7 +49,7 @@
 **6. Flexibility and adaptability:** In some situations, the primary objective may be to ensure that the UAV is flexible and adaptable to changing circumstances. This would require the planner to consider different contingencies and plan accordingly.
 
 
-**## C) Some Potential Objectives that can be Used in Planning and Scheduling HVAC Systems using RDDL:**
+## C) Some Potential Objectives that can be Used in Planning and Scheduling HVAC Systems using RDDL:
 
 **1. Minimizing energy consumption:** The objective can be to minimize the energy consumption of the HVAC system, while still maintaining a comfortable indoor environment.
 
