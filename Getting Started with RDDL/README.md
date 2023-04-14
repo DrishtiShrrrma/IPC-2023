@@ -47,3 +47,11 @@ On the other hand, the "velocity" variable is also associated with the "car" obj
 
 In general, state fluents should be used to represent the properties of the environment that can change over time due to external factors, while action fluents should be used to represent the effects of actions on the environment that cannot be predicted or controlled by the agent.
 
+
+
+The "noagent" agent is a simple agent that takes no actions, and simply observes the state of the environment as it evolves over time. This can be useful in cases where you want to analyze the behavior of an RDDL domain without any interference from an external agent.
+
+On the other hand, the "randomagent" agent is a more sophisticated agent that randomly selects actions to take at each time step. This can be useful in cases where you want to test the behavior of an RDDL domain under random or stochastic conditions.
+
+Both "noagent" and "randomagent" are implemented as part of the RDDL library and can be used directly with the RDDL domains provided in the library. However, in order to use them, you will need to set up an RDDL environment and define an appropriate RDDL domain.
+
