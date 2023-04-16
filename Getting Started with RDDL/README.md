@@ -3,7 +3,7 @@
 - could include intial state, but not necessarily
 - objectives
 - additional constraints
-
+  
 3. What's the need of defining multiple instances of a planning problem?
 - Sensitivity Analysis: to test how sensitive the solution is to changes in the initial state or other problem parameters, we could define multiple instances of the problem with different initial states or parameter values, and then run the planner on each instance to compare the results.
 - Multi-objective optimization: In some planning problems, there may be multiple objectives that we want to optimize simultaneously. We could define multiple instances of the problem, each with different weightings or priorities assigned to the objectives, and then compare the solutions to see which objective weighting yields the best overall performance.
