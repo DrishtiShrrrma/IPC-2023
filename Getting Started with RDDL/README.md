@@ -55,3 +55,6 @@ On the other hand, the "randomagent" agent is a more sophisticated agent that ra
 
 Both "noagent" and "randomagent" are implemented as part of the RDDL library and can be used directly with the RDDL domains provided in the library. However, in order to use them, you will need to set up an RDDL environment and define an appropriate RDDL domain.
 
+
+![image](https://user-images.githubusercontent.com/129742046/232353748-1772b107-9267-46c4-a960-ad48dbc57156.png)
+
