@@ -9,7 +9,7 @@
 
 
 
-### Trained for 100k epochs
+### Trained for 100k epochs, Optimizer = Rmsprop
 FOR LEARNING RATE = 0.01, train_return=-0.000180 test_return=-0.000187
 
 FOR LEARNING RATE = 0.001, train_return=-0.000029 test_return=-0.000036
@@ -19,7 +19,7 @@ FOR LEARNING RATE = 0.0001, train_return=0.000003 test_return=-0.000004
 FOR LEARNING RATE = 0.0003, train_return=-0.000004 test_return=-0.000011
 
 
-### Trained for 1000 epochs
+### Trained for 1000 epochs, Optimizer = RMSprop
 FOR LEARNING RATE = 0.01, train_return=-0.000052 test_return=-0.000059
 
 FOR LEARNING RATE = 0.001, train_return=-0.000030 test_return=-0.000037
@@ -27,4 +27,27 @@ FOR LEARNING RATE = 0.001, train_return=-0.000030 test_return=-0.000037
 FOR LEARNING RATE = 0.0001, train_return=0.000003 test_return=-0.000004
 
 FOR LEARNING RATE = 0.0003, train_return=-0.000004 test_return=-0.000011
+
+
+
+### Trained for 1000 epochs, Optimizer = adam
+
+FOR LEARNING RATE = 0.01, train_return=-0.000039 test_return=-0.000045
+
+FOR LEARNING RATE = 0.001, train_return=-0.000030 test_return=-0.000037
+
+FOR LEARNING RATE = 0.0001, train_return=0.000002 test_return=-0.000005
+
+FOR LEARNING RATE = 0.0003, train_return=0.000006 test_return=-0.000001
+
+
+### Trained for 1000 epochs, Optimizer = adagrad
+
+FOR LEARNING RATE = 0.01, train_return=0.000000 test_return=-0.000006
+
+FOR LEARNING RATE = 0.001, train_return=0.000006 test_return=-0.000001
+
+FOR LEARNING RATE = 0.0001, train_return=-0.000359 test_return=-0.000366
+
+FOR LEARNING RATE = 0.0003, train_return=-0.000195 test_return=-0.000201
 
