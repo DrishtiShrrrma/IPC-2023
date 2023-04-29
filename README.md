@@ -222,3 +222,6 @@ However, larger rollout_horizon values also mean more computation time and poten
 The optimal rollout_horizon for a given problem depends on factors such as the complexity of the problem, the size of the state space, and the available computing resources.
 
 It is common to experiment with different rollout_horizon values and select the one that gives the best performance on a validation set.
+
+
+in general, a value of 1 can be used as the minimum value for rollout_horizon. In this case, the planner would only consider one step ahead when generating the plan or policy, which may be sufficient for simple environments or short-term decision-making problems. However, for more complex environments or longer-term decision-making problems, a larger rollout_horizon may be necessary to generate effective plans or policies.
