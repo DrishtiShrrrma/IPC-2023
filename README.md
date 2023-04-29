@@ -51,3 +51,27 @@ FOR LEARNING RATE = 0.0001, train_return=-0.000359 test_return=-0.000366
 
 FOR LEARNING RATE = 0.0003, train_return=-0.000195 test_return=-0.000201
 
+
+
+
+------------------------------------------- SAY HELLO TO JaxDeepReactivePolicy(topology = [256, 128]) ----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note: planner.optimize() returns a generator that yields a dictionary callback at the end of each training epoch. The dictionary contains various performance metrics, such as train_return and test_return, as well as the current model parameters, which are stored under the key params. So, if you want to access the final model parameters after training, you can simply use callback['params'].
