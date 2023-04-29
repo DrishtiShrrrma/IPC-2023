@@ -75,3 +75,10 @@ FOR LEARNING RATE = 0.0003, train_return=-0.000195 test_return=-0.000201
 
 
 Note: planner.optimize() returns a generator that yields a dictionary callback at the end of each training epoch. The dictionary contains various performance metrics, such as train_return and test_return, as well as the current model parameters, which are stored under the key params. So, if you want to access the final model parameters after training, you can simply use callback['params'].
+
+
+policy_weights is a dictionary with keys representing the names of the actions in the policy, and values representing the weight to be assigned to each of those actions.
+
+In the context of reinforcement learning or decision-making problems, the weights in a policy are typically used to balance exploration and exploitation. A higher weight indicates that the corresponding action should be chosen more often, which can lead to more exploration of the state space. Conversely, a lower weight indicates that the corresponding action should be chosen less often, which can lead to more exploitation of the current knowledge about the state space.
+
+In the example you provided, the actions are 'cut-out' and 'put-out', and they are assigned equal weights of 10.0 each. This means that the planner will attempt to balance exploration and exploitation by choosing these two actions roughly equally often.
