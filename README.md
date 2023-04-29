@@ -54,9 +54,17 @@ FOR LEARNING RATE = 0.0003, train_return=-0.000195 test_return=-0.000201
 
 
 
-------------------------------------------- SAY HELLO TO JaxDeepReactivePolicy(topology = [256, 128]) ----------------------------------------------
+# ------------------------------------------- SAY HELLO TO JaxDeepReactivePolicy(topology = [256, 128]) ----------------------------------------------
 
+### Trained for 1000 epochs, Optimizer = rmsprop, JaxDeepReactivePolicy
 
+FOR LEARNING RATE = 0.01, train_return=-0.000024 test_return=-0.000031
+
+FOR LEARNING RATE = 0.001, train_return=-0.002088 test_return=-0.001904
+
+FOR LEARNING RATE = 0.0001, train_return=-0.001759 test_return=-0.001705
+
+FOR LEARNING RATE = 0.0003, train_return=-0.003328 test_return=-0.003029
 
 
 
@@ -82,3 +90,6 @@ policy_weights is a dictionary with keys representing the names of the actions i
 In the context of reinforcement learning or decision-making problems, the weights in a policy are typically used to balance exploration and exploitation. A higher weight indicates that the corresponding action should be chosen more often, which can lead to more exploration of the state space. Conversely, a lower weight indicates that the corresponding action should be chosen less often, which can lead to more exploitation of the current knowledge about the state space.
 
 In the example you provided, the actions are 'cut-out' and 'put-out', and they are assigned equal weights of 10.0 each. This means that the planner will attempt to balance exploration and exploitation by choosing these two actions roughly equally often.
+
+
+It seems that the variable "subs" is of type "NoneType" and therefore has no attribute "items". The code is trying to iterate over the items of the "subs" dictionary, but since it is None, it is causing the error.
