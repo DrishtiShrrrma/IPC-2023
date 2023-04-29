@@ -225,3 +225,28 @@ It is common to experiment with different rollout_horizon values and select the 
 
 
 in general, a value of 1 can be used as the minimum value for rollout_horizon. In this case, the planner would only consider one step ahead when generating the plan or policy, which may be sufficient for simple environments or short-term decision-making problems. However, for more complex environments or longer-term decision-making problems, a larger rollout_horizon may be necessary to generate effective plans or policies.
+
+
+
+
+# -------ROLLOUT_HORIZON----------------------
+
+# initialize the planner
+# note that actions should be constrained to [-1, 1] for Racecar
+planner = JaxRDDLBackpropPlanner(
+    model,
+    plan=JaxStraightLinePlan(),
+    batch_size_train=32,
+    rollout_horizon=8,
+    optimizer=optax.rmsprop,
+    optimizer_kwargs={'learning_rate': 0.01})
+    
+
+rollout_horizon = 1 , LR = 0.01, train_return=-0.000001 test_return=-0.000002
+rollout_horizon = 2 , LR = 0.01, train_return=-0.000029 test_return=-0.000032
+rollout_horizon = 4 , LR = 0.01, train_return=-0.000100 test_return=-0.000106
+rollout_horizon = 5 , LR = 0.01, train_return=-0.000052 test_return=-0.000059
+rollout_horizon = 8 , LR = 0.01, train_return=-0.000096 test_return=-0.000107
+rollout_horizon = 10 , LR = 0.01,train_return=-0.000198 test_return=-0.000212
+rollout_horizon = 12 , LR = 0.01, train_return=-0.000198 test_return=-0.000212
+rollout_horizon = 14 , LR = 0.01, train_return=-0.000245 test_return=-0.000264
