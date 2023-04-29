@@ -94,7 +94,15 @@ In the example you provided, the actions are 'cut-out' and 'put-out', and they a
 
 It seems that the variable "subs" is of type "NoneType" and therefore has no attribute "items". The code is trying to iterate over the items of the "subs" dictionary, but since it is None, it is causing the error.
 
-
+# initialize the planner
+# note that actions should be constrained to [-1, 1] for Racecar
+planner = JaxRDDLBackpropPlanner(
+    model,
+    plan=JaxDeepReactivePolicy(topology = [256, 128]),
+    batch_size_train=32,
+    rollout_horizon=5,
+    optimizer=optax.rmsprop,
+    optimizer_kwargs={'learning_rate': 0.001})
 
 step=   0 train_return=-0.122401 test_return=-0.103662
 step= 100 train_return=-0.012848 test_return=-0.012794
