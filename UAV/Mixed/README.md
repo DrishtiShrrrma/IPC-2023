@@ -13,7 +13,7 @@
 ### Reward Adjustment:
 1. UAV successfully achieves its goal - Incentivize/ Positive Reward
 2. Gradually increase the reward as the UAV gets closer to the goal. This encourages the planner to make progress towards the goal
-3. Encourage the UAV to complete tasks quickly by incorporating a time-based reward component. Penalize longer durations or reward shorter durations, depending on the specific requirements of your problem.
+3. Encourage the UAV to complete tasks quickly by incorporating a time-based reward component. Penalize longer durations or reward shorter durations, depending on the specific requirements of problem.
 4. Negative rewards or penalties for actions that violate safety constraints or result in undesirable outcomes. For example, penalize collisions, violations of altitude limits, or excessive energy consumption.
 5. If UAV has limited resources (e.g., battery life), consider incorporating a reward component that encourages efficient resource usage. Penalize actions that consume excessive resources or reward actions that conserve resources.
 6. Reward smooth and stable flight behaviors by penalizing abrupt changes in velocity, acceleration, or attitude. This can help promote safe and controlled UAV movements.
