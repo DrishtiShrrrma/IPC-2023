@@ -31,7 +31,10 @@ reward = -sum_{?a : aircraft} [CONTROLLABLE(?a) * sqrt[pow[(pos-x(?a) - GOAL-X(?
 
 **1. LQR (Linear Quadratic Regulator) -** aims to find optimal control inputs to minimize a quadratic cost function. It is widely used for linear systems and provides a closed-form solution.
 **2. MPC (Model Predictive Control) -**  involves solving an optimization problem at each time step to determine the optimal control inputs. It uses a model of the system dynamics to predict the future behavior and selects the control inputs that optimize a given objective function. This is used for both linear and nonlinear systems.
-3. 
+
 
 
 ### Model-free Approaches
+
+
+Reference: https://arxiv.org/abs/1812.03565
