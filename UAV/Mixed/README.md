@@ -40,4 +40,4 @@ reward = -sum_{?a : aircraft} [CONTROLLABLE(?a) * sqrt[pow[(pos-x(?a) - GOAL-X(?
 
 Reference: 1. https://arxiv.org/abs/1812.03565
 
-2. https://arxiv.org/pdf/2011.11104.pdf
+2. https://arxiv.org/pdf/2011.11104.pdf (Model Predictive Control for Micro Aerial Vehicles: A Survey)
